@@ -26,6 +26,15 @@ That's it — no restart needed.
 
 ---
 
+## Using one of these skills?
+
+If a skill is saving you time, two quick things would mean a lot:
+
+- **Star this repo** — it helps me know people are actually finding this useful
+- **Drop a note in [Discussions](https://github.com/surajhk/claude-skills/discussions)** — which skill you're using, what you're using it for, any feedback
+
+---
+
 ## About
 
 New skills will be added here over time. Each skill is designed to be self-contained and ready to use out of the box.
