@@ -17,9 +17,14 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 ## How to Install a Skill
 
 1. Copy the skill file from the `skills/` folder.
-2. Place it in your local Claude skills directory:
-   - **Mac/Linux:** `~/.claude/skills/`
-   - **Windows:** `C:\Users\<YourName>\.claude\skills\`
+2. Create a subfolder for it in your local Claude skills directory and place the file inside as `SKILL.md`:
+   - **Mac/Linux:** `~/.claude/skills/<skill-name>/SKILL.md`
+   - **Windows:** `C:\Users\<YourName>\.claude\skills\<skill-name>\SKILL.md`
+
+   Example for prd-copilot:
+   - Mac/Linux: `~/.claude/skills/prd-copilot/SKILL.md`
+   - Windows: `C:\Users\<YourName>\.claude\skills\prd-copilot\SKILL.md`
+
 3. Invoke it in Claude Code by typing `/skill-name` (e.g., `/prd-copilot`).
 
 That's it — no restart needed.
