@@ -11,6 +11,7 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 | Skill | Description |
 |-------|-------------|
 | [prd-copilot](skills/prd-copilot.md) | A collaborative PRD co-pilot for Product Managers. Works section by section to produce high-quality, consistent, and complete PRDs faster. |
+| [investment-agent](skills/investment-agent.md) | A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions. |
 
 ---
 
@@ -43,3 +44,4 @@ If a skill is saving you time, two quick things would mean a lot:
 ## About
 
 New skills will be added here over time. Each skill is designed to be self-contained and ready to use out of the box.
+
