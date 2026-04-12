@@ -6,42 +6,29 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ---
 
-## Available Plugins
+## Available Skills
 
-| Plugin | Description |
-|--------|-------------|
-| [prd-copilot](plugins/prd-copilot) | A collaborative PRD co-pilot for Product Managers. Works section by section to produce high-quality, consistent, and complete PRDs faster. |
-| [investment-agent](plugins/investment-agent) | A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions. |
+| Skill | Description |
+|-------|-------------|
+| [prd-copilot](skills/prd-copilot) | A collaborative PRD co-pilot for Product Managers. Works section by section to produce high-quality, consistent, and complete PRDs faster. |
+| [investment-agent](skills/investment-agent) | A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions. |
 
 ---
 
 ## How to Install
 
-**Step 1 — Add the marketplace** (once):
+**Install the whole plugin** (gives you all skills at once):
 
 ```
-/plugin marketplace add surajhk/claude-skills
+/plugin install github:surajhk/claude-skills
 ```
 
-**Step 2 — Install the skill you want:**
-
-### prd-copilot
+Then invoke each skill:
 
 ```
-/plugin install prd-copilot@surajhk-skills
+/claude-skills:prd-copilot
+/claude-skills:investment-agent
 ```
-
-Then invoke with `/prd-copilot:run`
-
----
-
-### investment-agent
-
-```
-/plugin install investment-agent@surajhk-skills
-```
-
-Then invoke with `/investment-agent:run`
 
 ---
 
