@@ -20,7 +20,7 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 **Step 1 — Add the marketplace** (once):
 
 ```
-/plugin marketplace add github:surajhk/claude-skills
+/plugin marketplace add surajhk/claude-skills
 ```
 
 **Step 2 — Install the skill you want:**
