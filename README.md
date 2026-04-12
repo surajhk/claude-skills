@@ -6,29 +6,38 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ---
 
-## Available Skills
+## Available Plugins
 
-| Skill | Description |
-|-------|-------------|
-| [prd-copilot](skills/prd-copilot.md) | A collaborative PRD co-pilot for Product Managers. Works section by section to produce high-quality, consistent, and complete PRDs faster. |
-| [investment-agent](skills/investment-agent.md) | A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions. |
+| Plugin | Description |
+|--------|-------------|
+| [prd-copilot](plugins/prd-copilot) | A collaborative PRD co-pilot for Product Managers. Works section by section to produce high-quality, consistent, and complete PRDs faster. |
+| [investment-agent](plugins/investment-agent) | A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions. |
 
 ---
 
-## How to Install a Skill
+## How to Install
 
-1. Copy the skill file from the `skills/` folder.
-2. Create a subfolder for it in your local Claude skills directory and place the file inside as `SKILL.md`:
-   - **Mac/Linux:** `~/.claude/skills/<skill-name>/SKILL.md`
-   - **Windows:** `C:\Users\<YourName>\.claude\skills\<skill-name>\SKILL.md`
+### Install a single plugin directly
 
-   Example for prd-copilot:
-   - Mac/Linux: `~/.claude/skills/prd-copilot/SKILL.md`
-   - Windows: `C:\Users\<YourName>\.claude\skills\prd-copilot\SKILL.md`
+```bash
+/plugin install github:surajhk/claude-skills?path=plugins/prd-copilot
+/plugin install github:surajhk/claude-skills?path=plugins/investment-agent
+```
 
-3. Invoke it in Claude Code by typing `/skill-name` (e.g., `/prd-copilot`).
+### Or add the full marketplace and install from there
 
-That's it — no restart needed.
+```bash
+/plugin marketplace add github:surajhk/claude-skills
+/plugin install prd-copilot@surajhk-skills
+/plugin install investment-agent@surajhk-skills
+```
+
+Once installed, invoke in Claude Code with:
+
+```
+/prd-copilot
+/investment-agent
+```
 
 ---
 
