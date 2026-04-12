@@ -1,0 +1,12 @@
+{
+  "name": "prd-copilot",
+  "description": "A collaborative PRD Co-Pilot for Product Managers. Works section by section to help produce high-quality, consistent, and complete PRDs faster.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Suraj Khanna"
+  },
+  "homepage": "https://github.com/surajhk/claude-skills",
+  "repository": "https://github.com/surajhk/claude-skills",
+  "license": "MIT",
+  "keywords": ["product-management", "prd", "documentation", "product-manager"]
+}

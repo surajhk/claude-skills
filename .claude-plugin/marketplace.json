@@ -1,0 +1,41 @@
+{
+  "name": "surajhk-skills",
+  "owner": {
+    "name": "Suraj Khanna",
+    "email": ""
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code skills for product managers and developers.",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "prd-copilot",
+      "source": "./plugins/prd-copilot",
+      "description": "A collaborative PRD Co-Pilot for Product Managers. Works section by section to help produce high-quality, consistent, and complete PRDs faster.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Suraj Khanna"
+      },
+      "homepage": "https://github.com/surajhk/claude-skills",
+      "repository": "https://github.com/surajhk/claude-skills",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["product-management", "prd", "documentation", "product-manager"]
+    },
+    {
+      "name": "investment-agent",
+      "source": "./plugins/investment-agent",
+      "description": "A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation. Enforces portfolio discipline with dynamic concentration limits, exit rules, and tracks a watchlist and trade log across sessions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Suraj Khanna"
+      },
+      "homepage": "https://github.com/surajhk/claude-skills",
+      "repository": "https://github.com/surajhk/claude-skills",
+      "license": "MIT",
+      "category": "finance",
+      "tags": ["investing", "portfolio", "finance", "research", "stocks", "equity"]
+    }
+  ]
+}

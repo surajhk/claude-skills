@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "prd-copilot",
+      "description": "A collaborative PRD Co-Pilot for Product Managers",
+      "file": "skills/prd-copilot.md"
+    }
+  ]
+}
