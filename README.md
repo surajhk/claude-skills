@@ -31,7 +31,7 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 /plugin install prd-copilot@surajhk-skills
 ```
 
-Then invoke with `/prd-copilot`
+Then invoke with `/prd-copilot:run`
 
 ---
 
@@ -41,7 +41,7 @@ Then invoke with `/prd-copilot`
 /plugin install investment-agent@surajhk-skills
 ```
 
-Then invoke with `/investment-agent`
+Then invoke with `/investment-agent:run`
 
 ---
 
