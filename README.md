@@ -17,17 +17,33 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ## How to Install
 
-**Install the whole plugin** (gives you all skills at once):
+**Step 1 — Add the marketplace** (once):
 
 ```
-/plugin install github:surajhk/claude-skills
+/plugin marketplace add surajhk/claude-skills
 ```
 
-Then invoke each skill:
+**Step 2 — Install the skill you want:**
+
+### prd-copilot
 
 ```
-/claude-skills:prd-copilot
-/claude-skills:investment-agent
+/plugin install prd-copilot@surajhk-skills
+```
+
+### investment-agent
+
+```
+/plugin install investment-agent@surajhk-skills
+```
+
+---
+
+**Or install both at once:**
+
+```
+/plugin install prd-copilot@surajhk-skills
+/plugin install investment-agent@surajhk-skills
 ```
 
 ---
