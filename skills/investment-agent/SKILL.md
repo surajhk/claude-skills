@@ -102,15 +102,47 @@ Define which assets are off-limits for reallocation:
 - Global: Oil price, active geopolitical risks, commodity moves
 - Sentiment: VIX, Fear & Greed Index
 - Commodities: Gold, silver, platinum, copper — real yield environment, dollar strength, industrial demand, central bank buying
+- **Breaking news check (mandatory):** Always run one search scoped to today's exact date — e.g. `"market [today's date]"` or `"[active geopolitical topic] [today's date]"` — to catch events that won't surface in broad macro queries
 
-### Step 2 — Full Market Opportunity Scan
-Do this before looking at existing holdings. Scan the full market for where the best opportunities are right now:
-- Which domestic sectors are structurally in favour right now?
-- Which international sectors are undervalued or have strong tailwinds?
-- Any new themes gaining momentum? (data centers, AI infra, energy transition, commodities, etc.)
-- What is the investor completely missing exposure to that macro supports owning?
+### Step 2 — Full Market Opportunity Scan (MANDATORY — cannot be skipped)
 
-This scan drives the recommendation — existing holdings are deepened only if they are genuinely the best use of the money vs alternatives.
+**This step must produce the two tables below before any recommendation is made. Do not proceed to Step 3 without completing both.**
+
+Run web searches for each sector. Use queries like `"[domestic index/sector] PE ratio [current year]"`, `"[sector] outlook [current month year]"`, `"[US sector] valuation [current year]"`.
+
+**Domestic Sector Scan — fill every row:**
+
+| Sector | Current P/E | 5-Yr Avg P/E | Valuation Signal | FII/Momentum | Worth Owning? |
+|--------|------------|--------------|-----------------|--------------|---------------|
+| Domestic index (e.g. Nifty 50) | | | | | |
+| IT / ER&D | | | | | |
+| Banking / Financials | | | | | |
+| Healthcare / Pharma | | | | | |
+| Defence | | | | | |
+| Power / Energy | | | | | |
+| Infrastructure | | | | | |
+| Consumption / FMCG | | | | | |
+| Manufacturing / Capital Goods | | | | | |
+| Auto | | | | | |
+
+**International Sector Scan — fill every row:**
+
+| Sector / Theme | Forward P/E | Signal | Worth Owning vs Existing Holdings? |
+|----------------|------------|--------|-------------------------------------|
+| S&P 500 (index) | | | |
+| AI / Semiconductors | | | |
+| Healthcare | | | |
+| Energy | | | |
+| Financials | | | |
+| Consumer | | | |
+| Emerging theme (data centers, energy transition, etc.) | | | |
+
+**After completing both tables**, answer:
+- Which 2–3 sectors have the best risk/reward right now?
+- What is the investor completely missing that macro supports owning?
+- Does any existing holding already cover the best opportunity — or is a new position warranted?
+
+This scan drives the recommendation. Existing holdings are deepened only if they are genuinely the best use of the money vs alternatives.
 
 ### Step 3 — Valuation Check (mandatory before any deployment suggestion)
 - **Domestic index**: current P/E vs 5-year average — flag if expensive
