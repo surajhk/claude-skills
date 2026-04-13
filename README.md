@@ -1,8 +1,8 @@
 # Claude Skills
 
-A collection of custom skills for [Claude Code](https://claude.ai/code) — built and maintained by [@SurajKhanna](https://github.com/SurajKhanna).
+A collection of custom skills for [Claude Code](https://claude.ai/code) and [Antigravity](https://antigravity.google) — built and maintained by [@SurajKhanna](https://github.com/SurajKhanna).
 
-These are plug-and-play skills you can add to your own Claude Code setup.
+These are plug-and-play skills you can add to your own AI agent setup.
 
 ---
 
@@ -17,7 +17,34 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ## How to Install
 
-### Option A — UI (Antigravity / VSCode Extension)
+### Option A — npx (Recommended, works everywhere)
+
+Install to Claude Code:
+```bash
+npx skills add surajhk/claude-skills -a claude-code -g
+```
+
+Install to Antigravity:
+```bash
+npx skills add surajhk/claude-skills -a antigravity -g
+```
+
+Install to both at once:
+```bash
+npx skills add surajhk/claude-skills -a claude-code -a antigravity -g
+```
+
+Install a specific skill only:
+```bash
+npx skills add surajhk/claude-skills --skill investment-agent -a claude-code -g
+npx skills add surajhk/claude-skills --skill prd-copilot -a claude-code -g
+```
+
+> Works with 40+ agents. See [skills.sh](https://skills.sh) for the full list.
+
+---
+
+### Option B — UI (Antigravity / VSCode Extension)
 
 1. Type `/plugin` in the chat to open the Plugin Manager
 2. Click **Add Marketplace**
@@ -29,35 +56,17 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ---
 
-### Option B — CLI (Claude Code Terminal)
+### Option C — CLI (Claude Code Terminal)
 
 **Step 1 — Add the marketplace** (once):
-
 ```
 /plugin marketplace add surajhk/claude-skills
 ```
 
 **Step 2 — Install the skill you want:**
-
-#### prd-copilot
-
-```
-/plugin install prd-copilot@surajhk-skills
-```
-
-#### investment-agent
-
 ```
 /plugin install investment-agent@surajhk-skills
-```
-
----
-
-**Or install both at once:**
-
-```
 /plugin install prd-copilot@surajhk-skills
-/plugin install investment-agent@surajhk-skills
 ```
 
 ---
