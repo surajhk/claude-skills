@@ -19,28 +19,17 @@ These are plug-and-play skills you can add to your own AI agent setup.
 
 ### Option A — npx (Recommended, works everywhere)
 
-Install to Claude Code:
 ```bash
-npx skills add surajhk/claude-skills -a claude-code -g
-```
-
-Install to Antigravity:
-```bash
-npx skills add surajhk/claude-skills -a antigravity -g
-```
-
-Install to both at once:
-```bash
-npx skills add surajhk/claude-skills -a claude-code -a antigravity -g
+npx skills add surajhk/claude-skills -g
 ```
 
 Install a specific skill only:
 ```bash
-npx skills add surajhk/claude-skills --skill investment-agent -a claude-code -g
-npx skills add surajhk/claude-skills --skill prd-copilot -a claude-code -g
+npx skills add surajhk/claude-skills --skill investment-agent -g
+npx skills add surajhk/claude-skills --skill prd-copilot -g
 ```
 
-> Works with 40+ agents. See [skills.sh](https://skills.sh) for the full list.
+> Works with Claude Code, Antigravity, and 40+ other agents. The CLI auto-detects which agents you have installed. See [skills.sh](https://skills.sh) for the full list.
 
 ---
 
