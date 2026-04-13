@@ -1,4 +1,5 @@
 ---
+name: prd-copilot
 description: A collaborative PRD Co-Pilot for Product Managers. Works section by section to help produce high-quality, consistent, and complete PRDs faster.
 user-invocable: true
 ---
