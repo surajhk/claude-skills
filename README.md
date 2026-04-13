@@ -17,6 +17,20 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 ## How to Install
 
+### Option A — UI (Antigravity / VSCode Extension)
+
+1. Type `/plugin` in the chat to open the Plugin Manager
+2. Click **Add Marketplace**
+3. Paste this URL:
+   ```
+   https://github.com/surajhk/claude-skills
+   ```
+4. Find the skill you want and click **Install**
+
+---
+
+### Option B — CLI (Claude Code Terminal)
+
 **Step 1 — Add the marketplace** (once):
 
 ```
@@ -25,13 +39,13 @@ These are plug-and-play skills you can add to your own Claude Code setup.
 
 **Step 2 — Install the skill you want:**
 
-### prd-copilot
+#### prd-copilot
 
 ```
 /plugin install prd-copilot@surajhk-skills
 ```
 
-### investment-agent
+#### investment-agent
 
 ```
 /plugin install investment-agent@surajhk-skills
@@ -60,4 +74,3 @@ If a skill is saving you time, two quick things would mean a lot:
 ## About
 
 New skills will be added here over time. Each skill is designed to be self-contained and ready to use out of the box.
-
