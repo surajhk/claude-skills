@@ -12,6 +12,12 @@
       "description": "A personal investment research agent. Runs a mandatory macro to opportunity scan to valuation to holdings sequence before any recommendation.",
       "source": "./",
       "category": "finance"
+    },
+    {
+      "name": "prd-copilot",
+      "description": "A collaborative PRD Co-Pilot for Product Managers. Works section by section to help produce high-quality, consistent, and complete PRDs faster.",
+      "source": "./",
+      "category": "productivity"
     }
   ]
 }
