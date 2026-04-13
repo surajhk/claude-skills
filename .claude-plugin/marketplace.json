@@ -1,0 +1,30 @@
+{
+  "name": "surajhk-skills",
+  "owner": {
+    "name": "Suraj Khanna"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code skills for product managers and investors.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prd-copilot",
+      "description": "A collaborative PRD Co-Pilot for Product Managers. Works section by section to help produce high-quality, consistent, and complete PRDs faster.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prd-copilot"
+      ]
+    },
+    {
+      "name": "investment-agent",
+      "description": "A personal investment research agent. Runs a mandatory macro → opportunity scan → valuation → holdings sequence before any recommendation.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/investment-agent"
+      ]
+    }
+  ]
+}
